@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formy </title>
+
+    <link href="/assets/images/logo.png" rel="icon" type="image/png">
+    <script src="/assets/plugins/tailwind/tailwindcss.3.3.2.js"></script>
+</head>
+<body class="bg-white dark:bg-black">
+<div class="flex items-center justify-center h-screen">
+    <div class="max-w-md w-1/4 bg-slate-300 rounded-xl shadow-md overflow-hidden p-6 md:max-w-2xl">
+        <p class="text-xl font-medium text-black text-center mt-2">{{ .text }}</p>
+        <div class="text-center mt-5">
+            <a class="inline-flex items-center space-x-2 text-indigo-500 font-semibold uppercase tracking-wide"
+               href="{{ .formyUrl }}">
+                <img alt="Formy" class="w-8" src="/assets/images/logo.png">
+                <span> Formy </span>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
