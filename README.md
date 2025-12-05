@@ -1,6 +1,6 @@
 # Formy
 
-The core engine of Formy - a form submission service that sends form data directly to Telegram. Formy Core provides a
+The core engine of Formy - a form handler service that sends form data directly to Telegram. Formy Core provides a
 secure, scalable backend for handling form submissions with built-in CAPTCHA protection, rate limiting, and domain
 whitelisting.
 
